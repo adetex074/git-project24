@@ -1,0 +1,22 @@
+git project done 
+directory created 
+cd into the directory
+local repository created 
+cd into the local repository 
+file created...staged and commited by master 
+checkout done, new branch created
+the original file edited, staged and commited
+further explore git log and other interesting git command
+git config details explore 
+file push from the local repository to remote repo (git-project24)
+gitignore command explore
+git pull command explore 
+git merge command explore 
+git log --graph --decorate explore 
+git clone command explore, the current remote repo clone (git-project24)
+fork command explore 
+revert and reset command
+rebasing command also explore 
+cherry picking command explore
+git stashing command explore 
+git reflog command expore 

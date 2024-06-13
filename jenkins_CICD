@@ -1,0 +1,25 @@
+Started by user Abdulhafeez  Bello
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/my-python-job
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/devopsjourney1/jenkins-101.git
+ > git init /var/jenkins_home/workspace/my-python-job # timeout=10
+Fetching upstream changes from https://github.com/devopsjourney1/jenkins-101.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --tags --force --progress -- https://github.com/devopsjourney1/jenkins-101.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/devopsjourney1/jenkins-101.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 36f0b8984e2ba97b17b26c91d50b53632ea12075 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 36f0b8984e2ba97b17b26c91d50b53632ea12075 # timeout=10
+Commit message: "install python"
+First time build. Skipping changelog.
+[my-python-job] $ /bin/sh -xe /tmp/jenkins16314688840078807164.sh
++ python3 helloworld.py
+Hello world
+Finished: SUCCESS
